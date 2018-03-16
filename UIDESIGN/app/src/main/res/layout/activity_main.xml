@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.aakash.uidesign.MainActivity"
+    android:background="@color/greylight"
+    android:orientation="vertical">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:background="@drawable/gradientbackground">
+        <TextView
+            android:layout_width="400dp"
+            android:layout_height="100dp"
+            android:text="Dashboard"
+            android:textSize="55dp"
+            ></TextView>
+            <android.support.v7.widget.CardView
+                android:layout_gravity="center"
+                android:layout_width="600dp"
+                android:layout_height="200dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="100dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#09c6df"
+                    android:orientation="horizontal"
+                    android:weightSum="4">
+                    <LinearLayout
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="match_parent">
+                        <ImageView
+                            android:layout_width="800dp"
+                            android:layout_height="80dp"
+                            android:src="@drawable/ic_info_black_24dp"
+                            android:textStyle="bold"
+                            android:textSize="30sp"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Info"
+                            android:textStyle="bold"
+                            android:textSize="25sp"
+                            android:paddingTop="10dp"
+                            android:textColor="#ffffff" />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="match_parent">
+                        <ImageView
+                            android:layout_width="800dp"
+                            android:layout_height="80dp"
+                            android:src="@drawable/ic_person_add_black_24dp"
+                            android:textStyle="bold"
+                            android:textSize="30sp"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Add Farmer"
+                            android:textStyle="bold"
+                            android:textSize="25sp"
+                            android:paddingTop="10dp"
+                            android:textColor="#ffffff" />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="match_parent">
+                        <ImageView
+                            android:layout_width="800dp"
+                            android:layout_height="80dp"
+                            android:src="@drawable/ic_search_black_24dp"
+                            android:textStyle="bold"
+                            android:textSize="30sp"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Search"
+                            android:textStyle="bold"
+                            android:textSize="25sp"
+                            android:paddingTop="10dp"
+                            android:textColor="#ffffff" />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="match_parent">
+                        <ImageView
+                            android:layout_width="800dp"
+                            android:layout_height="80dp"
+                            android:src="@drawable/ic_crop_original_black_24dp"
+                            android:textStyle="bold"
+                            android:textSize="30sp"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Add Crop"
+                            android:textStyle="bold"
+                            android:textSize="25sp"
+                            android:paddingTop="10dp"
+                            android:textColor="#ffffff" />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+          </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:layout_marginTop="45dp">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+        <EditText
+            android:layout_gravity="center_vertical"
+            android:layout_width="300dp"
+            android:layout_height="100dp"
+            android:textSize="40dp"
+            android:textColor="#000000"
+            android:text="Farmer2"
+            />
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@drawable/ic_person_black_24dp" />
+            </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:layout_marginTop="45dp">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <EditText
+                android:layout_gravity="center_vertical"
+                android:layout_width="300dp"
+                android:layout_height="100dp"
+                android:textSize="40dp"
+                android:textColor="#000000"
+                android:text="Farmer2"
+                />
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@drawable/ic_person_black_24dp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:layout_marginTop="45dp">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <EditText
+                android:layout_gravity="center_vertical"
+                android:layout_width="300dp"
+                android:layout_height="100dp"
+                android:textSize="40dp"
+                android:textColor="#000000"
+                android:text="Farmer3"
+                />
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@drawable/ic_person_black_24dp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:layout_marginTop="45dp">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+            <EditText
+                android:layout_gravity="center_vertical"
+                android:layout_width="300dp"
+                android:layout_height="100dp"
+                android:textSize="40dp"
+                android:textColor="#000000"
+                android:text="Farmer4"
+                />
+
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@drawable/ic_person_black_24dp" />
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
+</LinearLayout>

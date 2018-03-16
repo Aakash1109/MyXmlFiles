@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "380377393604",
+    "firebase_url": "https://comments-783bb.firebaseio.com",
+    "project_id": "comments-783bb",
+    "storage_bucket": "comments-783bb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:380377393604:android:badcd6923c91b952",
+        "android_client_info": {
+          "package_name": "dev.aakash.comment"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "380377393604-iei53gfaf51a3if46ft227vg5l1fmuu7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBx9ZzY-uKKYWTy_SfY7FoBhU3uT6N6jVE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

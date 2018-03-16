@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">letsgo</string>
+    <string name="hello_world">TAP ME! IF YOU DARE</string>
+    <string name="action_settings">Settings</string>
+</resources>
